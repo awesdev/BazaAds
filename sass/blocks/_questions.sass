@@ -1,0 +1,27 @@
+.questions
+    padding: 160px 0 125px 0
+    text-align: center
+    &__title
+        position: relative
+        margin: 0 auto
+        &::after
+            content: ''
+            position: absolute
+            top: 200%
+            left: -175px
+            width: 65px
+            height: 65px
+            background: url(../icons/tg1.svg) center center no-repeat
+        &::before
+            content: ''
+            position: absolute
+            top: 225%
+            right: -175px
+            width: 94px
+            height: 94px
+            background: url(../icons/tg2.svg) center center no-repeat
+    &__text
+        width: 700px
+        margin: 25px auto 0 auto
+    &__btn
+        margin-top: 35px

@@ -1,0 +1,39 @@
+.menu
+    &__list
+        display: flex
+        align-items: center
+    &__item
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 100%
+            border: 1px solid rgba(0, 8, 49, 0.08)
+            box-sizing: border-box
+            border-radius: 25px
+            opacity: 0
+            transition: opacity .3s ease
+            z-index: -1
+        &:hover
+            &::after
+                opacity: 1
+    &__link
+        display: inline-block
+        color: #000831
+        padding: 5px 15px
+        opacity: 0.5
+        transition: color .3s ease, opacity .3s ease, text-shadow .3s ease
+        &:hover
+            color: #000831
+            text-shadow: 0 0 0 #000831
+            opacity: 1
+    &__line
+        display: block
+        margin: 0 10px
+        width: 1px
+        height: 17px
+        background: #000831
+        opacity: 0.1
