@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BazaAds - Настройки</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo.svg">
+    <link rel="stylesheet" href="../css/libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../css/libs/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__wrapper">
+                    <div class="header__start">
+                        <div class="logo">
+                            <img class="logo__img" src="../img/logo.svg" alt="logo">
+                            <span class="logo__text">BazaAds</span>
+                        </div>
+                    </div>
+                    <div class="header__end">
+                        <p class="header__text">
+                            Панель администрации
+                        </p>
+                    </div>
+                </div>
+                <span class="header__line"></span>
+            </div>
+        </header>
+        <main>
+            <section class="hero-stats">
+                <div class="container hero-stats__container">
+                    <div class="panel">
+                        <ul class="panel__list">
+                            <li class="panel__item">
+                                <a href="index.html" class="panel__link">Настройка курсов</a>
+                            </li>
+                            <li class="panel__item">
+                                <a href="stats.html" class="panel__link">Статистика</a>
+                            </li>
+                            <li class="panel__item">
+                                <a href="ref.html" class="panel__link">Реф.система</a>
+                            </li>
+                            <li class="panel__item">
+                                <a href="income.html" class="panel__link">Доход</a>
+                            </li>
+                            <li class="panel__item">
+                                <a href="#" class="panel__link panel__link_active">Настройки</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="settings">
+                <div class="container settings__container">
+                    <div class="settings__header">
+                        Настройки
+                    </div>
+                    <div class="settings__blocks">
+                        <div class="settings__block">
+                            <div class="settings__start">
+                                <div class="settings__header">
+                                    Использовать оплату на сайте
+                                </div>
+                                <div class="settings__subheader">
+                                    Позволяет использовать оплату прямо на сайте
+                                </div>
+                            </div>
+                            <div class="settings__end">
+                                <a href="#" class="settings__btn settings__btn_color_red">Не использовать</a>
+                                <a href="#" class="settings__btn settings__btn_color_blue">Использовать</a>
+                            </div>
+                        </div>
+                        <div class="settings__block">
+                            <div class="settings__start">
+                                <div class="settings__header">
+                                    Стоимость
+                                </div>
+                                <div class="settings__subheader">
+                                    Изменить стоимость услуги
+                                </div>
+                            </div>
+                            <div class="settings__end">
+                                <input type="text" class="settings__input" placeholder="Стоимость курса">
+                                <a href="#" class="settings__btn settings__btn_color_blue">Принять</a>
+                            </div>
+                        </div>
+                        <div class="settings__block">
+                            <div class="settings__start">
+                                <div class="settings__header">
+                                    Кол-во случайных символов
+                                </div>
+                                <div class="settings__subheader">
+                                    Количество случайных символов в номере заказа <span
+                                        style="font-weight: 500;font-size: 20px;line-height: calc((30 / 20) * 100%);color: rgba(0, 8, 49, 0.4);opacity: 0.5;">(
+                                        от 2 до 16 )</span>
+                                </div>
+                            </div>
+                            <div class="settings__end">
+                                <input type="text" class="settings__input" placeholder="От 2 до 16">
+                                <a href="#" class="settings__btn settings__btn_color_blue">Принять</a>
+                            </div>
+                        </div>
+                        <div class="settings__block">
+                            <div class="settings__start">
+                                <div class="settings__header">
+                                    Кол-во случайных символов
+                                </div>
+                                <div class="settings__subheader">
+                                    Количество случайных символов в номере заказа <span
+                                        style="font-weight: 500;font-size: 20px;line-height: calc((30 / 20) * 100%);color: rgba(0, 8, 49, 0.4);opacity: 0.5;">(
+                                        от 2 до 16 )</span>
+                                </div>
+                            </div>
+                            <div class="settings__end">
+                                <input type="text" class="settings__input" placeholder="От 2 до 16">
+                                <a href="#" class="settings__btn settings__btn_color_blue">Принять</a>
+                            </div>
+                        </div>
+                        <div class="settings__block">
+                            <div class="settings__start">
+                                <div class="settings__header">
+                                    Обработчик платежных событий
+                                </div>
+                                <div class="settings__subheader">
+                                    Вставте ссылку обработчика платежных событий
+                                </div>
+                            </div>
+                            <div class="settings__end">
+                                <input type="text" class="settings__input" placeholder="Ссылка">
+                                <a href="#" class="settings__btn settings__btn_color_blue">Принять</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
