@@ -1,0 +1,27 @@
+.panel
+    padding: 67px 0
+    &__list
+        display: flex
+        align-items: center
+    &__item
+        padding: 10px
+    &__link
+        padding: 4px 15px
+        font-weight: 500
+        font-size: 20px
+        line-height: calc((30 / 20) * 100%)
+        color: rgb(0, 8, 49)
+        opacity: .5
+        border: 1px solid transparent
+        border-radius: 36px
+        transition: opacity .3s ease, border .3s ease
+        &:hover
+            border: 1px solid rgb(0, 8, 49)
+            color: rgb(0, 8, 49)
+        &_active
+            opacity: 1
+            color: #2D50FF
+            border: 1px solid #2D50FF
+            &:hover
+                color: #2D50FF
+                border: 1px solid #2D50FF
