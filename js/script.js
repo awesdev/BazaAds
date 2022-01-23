@@ -3,38 +3,44 @@ $(document).ready(function () {
 
     $("#phone").mask("+7 (999) 99-99-999");
 
-    $("#questions1").click(function () {
+    $("#info").click(function (e) {
+        e.preventDefault();
         $('html, body').animate({
-            scrollTop: $(".questions").offset().top
+            scrollTop: $(".info").offset().top
         }, 500);
     });
 
-    $("#enrollment").click(function () {
+    $("#enrollment").click(function (e) {
+        e.preventDefault();
         $('html, body').animate({
-            scrollTop: $(".questions").offset().top
+            scrollTop: $(".enrollment").offset().top
         }, 500);
     });
 
-    $("#about").click(function () {
+    $("#about").click(function (e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".about").offset().top
         }, 500);
     });
 
-    $("#program").click(function () {
+    $("#program").click(function (e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".program").offset().top
         }, 500);
     });
 
-    $("#questions").click(function () {
+    $("#questions").click(function (e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".questions").offset().top
         }, 500);
     });
 
 
-    $("#home").click(function () {
+    $("#home").click(function (e) {
+        e.preventDefault();
         $('html, body').animate({
             scrollTop: $(".header").offset().top
         }, 500);
