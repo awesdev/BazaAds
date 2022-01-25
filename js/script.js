@@ -45,4 +45,22 @@ $(document).ready(function () {
             scrollTop: $(".header").offset().top
         }, 500);
     });
+
+    $('.check-course').click(function (e) {
+        e.preventDefault();
+        $('.cab-courses').removeClass('cab-courses_active');
+        $('.my-courses').addClass('my-courses_active');
+    });
+
+    $('.close-course').click(function (e) {
+        e.preventDefault();
+        $('.cab-courses').addClass('cab-courses_active');
+        $('.my-courses').removeClass('my-courses_active');
+    });
+
+    $('.check-video').click(function (e) {
+        e.preventDefault();
+        $('.my-courses').removeClass('my-courses_active');
+        $('.video').addClass('video_active');
+    });
 })
